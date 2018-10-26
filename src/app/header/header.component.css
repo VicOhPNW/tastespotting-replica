@@ -1,19 +1,28 @@
 .header {
     margin-left: 2%;
     margin-right: 2%;
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 1px dashed #ABB2B9;
     font-family: 'Cinzel', serif;
+    color: #ABB2B9;
+}
+
+.arial {
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.nav-bar {
+    margin-top: -40px;
 }
 
 #headerSubmit {
-    font-family: arial;
-    font-size: 10px;
     font-style: oblique;
 }
 
 h1 {
    letter-spacing: 5px;
    font-size: 50px;
+   color: black;
 }
 
 a:link {
@@ -22,6 +31,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
+    color: #ABB2B9;
 }
 
 a:hover {
