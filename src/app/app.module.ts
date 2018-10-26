@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { SearchComponent } from './search/search.component';
+import { AdvertComponent } from './advert/advert.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { SearchComponent } from './search/search.component';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    SearchComponent
+    SearchComponent,
+    AdvertComponent
   ],
   imports: [
     BrowserModule
