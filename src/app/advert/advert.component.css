@@ -1,3 +1,5 @@
 #advert {
     background-color: lightgrey;
+    border-bottom: grey;
+    border-top: grey;
 }
