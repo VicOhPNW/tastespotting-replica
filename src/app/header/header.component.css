@@ -1,7 +1,11 @@
+#headerSubmit {
+    font-style: oblique;
+    text-align-last: right;
+}
+
 .header {
     margin-left: 2%;
     margin-right: 2%;
-    border-bottom: 1px dashed #ABB2B9;
     font-family: 'Cinzel', serif;
     color: #ABB2B9;
 }
@@ -11,17 +15,15 @@
     font-size: 13px;
 }
 
+
 .nav-bar {
     margin-top: -40px;
-}
-
-#headerSubmit {
-    font-style: oblique;
+    margin-bottom: 50px;
 }
 
 h1 {
    letter-spacing: 5px;
-   font-size: 50px;
+   font-size: 55px;
    color: black;
 }
 
@@ -40,4 +42,14 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+form {
+    text-align-last: right;
+    margin-top: -22px;
+}
+
+hr {
+    border: 1px dashed #ABB2B9;
+    margin-top: -35px;
 }
