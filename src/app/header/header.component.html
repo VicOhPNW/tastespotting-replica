@@ -1,21 +1,33 @@
 <div class="row header">
-    <p id="headerSubmit"><span class="arial">want to <a href="">SUBMIT</a> something delicious?<a href=""> LOGIN</a> or <a href="">REGISTER</a> first</span></p>
-    <h1>{{title}}</h1>
+  <div class="col-md-7">
+      <h1>{{title}}</h1>
 
-    <div class="nav-bar">
-      <span class="arial">browse by:</span>
-        <a class="nav-link" href="#">Date</a> |
-        <a class="nav-link" href="#">Category</a> |
-        <a class="nav-link" href="#">Popularity</a> |
-        <a class="nav-link" href="#">Random</a>
+      <ul class="nav">
+        <span class="arial">browse by:</span>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Date</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Category</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Popularity</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">| Random</a>
+        </li>
+      </ul>
+  </div>
+  <div class="col-md-5">
+      <p id="headerSubmit"><span class="arial smallText">want to <a href="">SUBMIT</a> something delicious?<a href=""> LOGIN</a> or <a href="">REGISTER</a> first</span></p>
 
-        <form>
-          <input type="text" name="search" maxlength="30" placeholder="search">
-          <button type="submit"><img src="~/.././img/play-button.png"></button>
-        </form>
-    </div>
-
-    <hr/>
+      <form>
+        <input type="text" name="search" maxlength="30" placeholder="search">
+        <button type="submit">
+            <i class="fa fa-play-circle-o fa-lg" style="color:#ABB2B9;" aria-hidden="true"></i>
+        </button>
+      </form> 
+  </div>
 
     
 </div>
