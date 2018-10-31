@@ -1,0 +1,22 @@
+.container-fluid {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.card {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+.page-link {
+    border: transparent;
+    font-size: 12px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 50px 0px 0px 3px;
+    text-decoration: none;
+}
