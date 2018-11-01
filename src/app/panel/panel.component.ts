@@ -1,25 +1,21 @@
 import { Component, OnInit } from '@angular/core';
+import { FirebaseListObservable } from 'angularfire2/database';
+import { PanelService } from '../panel.service';
+
 
 @Component({
   selector: 'app-panel',
   templateUrl: './panel.component.html',
-  styleUrls: ['./panel.component.css']
+  styleUrls: ['./panel.component.css'],
+  providers: [PanelService]
 })
 export class PanelComponent implements OnInit {
-  // panels: Panel[] = [
-  //   new Panel(
-  //     "whatseatingmanchester",
-  //     "whatseatingmanchester.com",
-  //     "http://images.tastespotting.com/thumbnails/1064274.jpg",
-  //     "buttery cookie",
-  //     "Buttery shortbread, creamy chocolate and gooey caramel sandwhiched between. What's not to love!",
-  //     "1"
-  //   )
-  // ]
+  panels: FirebaseListObservable<any[]>; 
 
-  constructor() { }
+  constructor(private panelService: PanelService) { }
 
   ngOnInit() {
+    this.panels = this.panelService.getPanels();
   }
 
 }

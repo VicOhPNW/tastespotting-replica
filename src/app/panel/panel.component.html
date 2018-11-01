@@ -1,35 +1,13 @@
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-3">
+    <div class="col-md-3" *ngFor="let panel of panels | async">
         <div class="card">
-          <p><span id="siteURL">test</span></p>
-          <img class="card-img-top mx-auto" src="{{panels[0].src}}" alt="buttery cookie">
+          <p><span id="siteURL">{{panel.siteURL}}</span></p>
+          <img class="card-img-top mx-auto" src="{{panel.src}}" alt="panel.alt">
           <div class="card-body text-left">
-            <p class="card-text">Some text inside the first card</p>
-
+            <p class="card-text">{{panel.description}}}</p>
           </div>
         </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body text-center">
-              <p class="card-text">2nd</p>
-            </div>
-          </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body text-center">
-              <p class="card-text">3rd</p>
-            </div>
-          </div>
-    </div>
-    <div class="col-md-3">
-        <div class="card">
-            <div class="card-body text-center">
-              <p class="card-text">4th</p>
-            </div>
-          </div>
     </div>
   </div>
 

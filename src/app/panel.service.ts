@@ -13,5 +13,4 @@ export class PanelService {
   getPanels() {
     return this.panels;
   }
-
 }
