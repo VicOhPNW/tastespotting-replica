@@ -10,4 +10,8 @@ export class PanelService {
     this.panels = database.list('panels');
   }
 
+  getPanels() {
+    return this.panels;
+  }
+
 }
