@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Panel } from '../models/panel.model';
 
 @Component({
   selector: 'app-panel',
@@ -7,6 +6,16 @@ import { Panel } from '../models/panel.model';
   styleUrls: ['./panel.component.css']
 })
 export class PanelComponent implements OnInit {
+  // panels: Panel[] = [
+  //   new Panel(
+  //     "whatseatingmanchester",
+  //     "whatseatingmanchester.com",
+  //     "http://images.tastespotting.com/thumbnails/1064274.jpg",
+  //     "buttery cookie",
+  //     "Buttery shortbread, creamy chocolate and gooey caramel sandwhiched between. What's not to love!",
+  //     "1"
+  //   )
+  // ]
 
   constructor() { }
 
