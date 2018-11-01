@@ -5,7 +5,6 @@ export class Panel {
         public src: string,
         public alt: string,
         public description: string,
-        public postId: string,
-        public favorite = true
+        public postId: string
     ) {}
 }
