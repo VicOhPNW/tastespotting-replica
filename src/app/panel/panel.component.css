@@ -1,3 +1,7 @@
+#siteURL {
+    font-size: 10px;
+}
+
 .container-fluid {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -6,8 +10,14 @@
 .card {
     margin-left: 5%;
     margin-right: 5%;
+    width: 295px;
+    height: 375px;
 }
 
+.card-text {
+    margin-left: -11px;
+    font-size: 12px;
+}
 
 .page-link {
     border: transparent;
@@ -19,4 +29,10 @@
     float: left;
     padding: 50px 0px 0px 3px;
     text-decoration: none;
+}
+
+img {
+    height: 270px;
+    width: 270px;
+    padding-top: 15px;
 }

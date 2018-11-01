@@ -1,5 +1,5 @@
-export class Panel {
-    constructor (
+// export class Panel {
+//     constructor (
         
-    )
-}
+//     )
+// }
