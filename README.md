@@ -8,7 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## *Specifications*
 | User Stories |
-|:-------------:|
+|-------------|
 |User is able to register an account with their email.|
 |After registering, a user can log-in with their username and password.|
 |User can browse by: date, category, popularity, or random.|
