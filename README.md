@@ -11,6 +11,7 @@ As of 11/02/18, focus has been on:
 * Connected to firebase database
 * Use of components
 * Dependency injection
+* Styling (as I go...with lots of edits.)
 
 
 ## *Specifications*
