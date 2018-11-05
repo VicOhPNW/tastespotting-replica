@@ -1,30 +1,34 @@
-<div class="row header">
+<div class="row header ml-5 mr-5">
   <div class="col-md-7">
       <h1>{{title}}</h1>
 
-      <ul class="nav headerList">
-        <span class="arial">browse by:</span>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Date</a>
-        </li>
-        <li>|</li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Category</a>
-        </li>
-        <li>|</li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Popularity</a>
-        </li>
-        <li>|</li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Random</a>
-        </li>
-      </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="navbar-nav">
+          <li class="navbar-text">
+              <span class="arial">browse by:</span>
+          </li>
+          <li class="nav-item active">
+              <a class="nav-link" href="#">Date</a>
+          </li>
+          <li class="navbar-text">|</li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Category</a>
+          </li>
+          <li class="navbar-text">|</li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Popularity</a>
+          </li>
+          <li class="navbar-text">|</li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Random</a>
+          </li>
+        </div>
+      </nav>
   </div>
   <div class="col-md-5">
       <p id="headerSubmit"><span class="arial smallText">want to <a href="">SUBMIT</a> something delicious?<a href=""> LOGIN</a> or <a href="">REGISTER</a> first</span></p>
 
-      <form>
+      <form id="form">
         <input type="text" name="search" maxlength="30" placeholder="search">
         <button type="submit">
             <i class="fa fa-play-circle-o fa-lg" style="color:#ABB2B9;" aria-hidden="true"></i>
@@ -32,6 +36,5 @@
       </form> 
   </div>
 
-    
-</div>
 
+</div>
